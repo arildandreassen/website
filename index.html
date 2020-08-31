@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="icon" href="css/icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+  </head>
+  <body onload="openExp(event,'Riffyn')">
+    <div class="header">
+      <div class="nav">
+        <ol class="nav_options" start="001">
+          <li><a href="#about">about</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#contact">contact me</a></li>
+        </ol>
+      </div>
+    </div>
+    <div class="intro">
+      <div class="block">
+        <h4 class="greetings">Hi, my name is</h4>
+        <h1 class="name">Arild Andreassen</h1>
+        <h2 class="subtitle">I automate stuff</h2>
+      </div>
+      <div>
+        <p class="quick intro">
+          I am a <span>Software Developer Engineer in Test</span> with years of
+          experience in Quality Assurance. <br />
+          As a former manual QA, I've taken the leap to automation and enjoy
+          creating easy-to-use <br />
+          frameworks for testing both frontend and backend features.
+          <span><b>Work smarter, not harder.</b></span>
+        </p>
+      </div>
+    </div>
+    <section id="about">
+      <div class="section">
+        <div class="header">
+          <h2><span>01.</span> about me</h2>
+        </div>
+        <div class="textblock">
+          <p><span><b>The key to Quality is Understanding.</b></span> This is the case whether it is understanding the business, the business model, the goal,
+                    the creative approach, the technologies, or the test approach. Without understanding comes mimicking. <br>
+                    <br>
+                    I seek to understand everything I do, and if I don't understand it, I strive to learn it. All my career, both as a manual tester as
+                    well as automation engineer, I have strived to understand the unknown. <br>
+                    <br>
+                    I embrace the Agile approach, and believe that <span>only together </span>can people create truly amazing software. Through continuous improve
+                    people can improve themselves, the processes and the products they create. The measurement of success if we are getting better.
+                    We should be better tomorrow than we are today. We will have a better understanding of our world. <br>
+                    <br>
+                    I want to test often to get feedback quickly so that mistakes can be corrected. Don't wait until it is too late to fix.
+                    I use <span>Risk Analysis</span> to be efficient. Test the critical areas first as needed, then other areas as time allowes.
+                    <br>
+                    <br>
+                    Live To Fight Another Day
+
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="section">
+        <div class="header">
+          <h2><span>02.</span> experience</h2>
+        </div>
+      </div>
+      <div class="experience">
+        <div class="tab">
+          <button
+            class="tablinks active"
+            onclick="openExp(event, 'Riffyn')"
+            id="defaultLoad"
+          >
+            Riffyn
+          </button>
+          <button class="tablinks" onclick="openExp(event, 'Swisslog')">
+            Swisslog
+          </button>
+          <button class="tablinks" onclick="openExp(event, 'Apto')">
+            Apto
+          </button>
+          <button class="tablinks" onclick="openExp(event, 'HomeAdvisor')">
+            HomeAdvisor
+          </button>
+          <button class="tablinks" onclick="openExp(event, 'Tyler')">
+            Tyler Technologies
+          </button>
+          <button class="tablinks" onclick="openExp(event, 'sdl')">
+            SDL International
+          </button>
+        </div>
+        <div id="Riffyn" class="tabcontent">
+            <div>
+                <h3>Riffyn </h3>
+                <span>06.2020 - Present</span>
+
+          <h6>Software Engineer in Test</h6>
+          <ul>
+              <li>
+                  Expanding on a Cypress framework to automate front end tests
+              </li>
+              <li>
+                  Leveraging the API for test data seeding
+              </li>
+              <li>
+                  Helped making the teams more agile by providing guidance and best practices
+              </li>
+              <li>
+                  Helped training Manual QA's to get familiar with automation
+              </li>
+          </ul>
+        </div>
+        </div>
+
+        <div id="Swisslog" class="tabcontent">
+            <div>
+                <h3>Swisslog </h3>
+                <span>07.2019 - 06.2020</span>
+
+          <h6>Senior Software Engineer in Test</h6>
+          <ul>
+              <li>
+                    Leveraged Katalon for test automation for the front end
+              </li>
+              <li>
+                    Incorporated a TCP framework for test data creation
+              </li>
+              <li>
+                    Created automated tests for API and Kafka
+              </li>
+              <li>
+                    Created scripts to automated the deployment of new software versions to test servers
+              </li>
+              <li>
+                    Performed Code Reviews and acting as a mentor to other QA for best practices
+              </li>
+          </ul>
+        </div>
+        </div>
+
+        <div id="Apto" class="tabcontent">
+            <div>
+                <h3>Apto </h3>
+                <span>01.2019 - 07.2019</span>
+                <h6>Lead QA Automation Engineer</h6>
+                <ul>
+                    <li>
+                        Created an automation framework from scratch using Java/Selenium
+                    </li>
+                    <li>
+                        Reduced the time the automation suite took from 75 mins to 15mins by introducing parallelisation 
+                    </li>
+                </ul>
+
+                <span>04.2017 - 01.2019</span>
+          <h6>QA Automation Engineer</h6>
+          <ul>
+              <li>
+                  Created an automation framework from scratch using Java/Selenium
+              </li>
+              <li>
+                  Reduced the time the automation suite took from 75 mins to 15mins by introducing parallelisation 
+              </li>
+              <li>
+                  Tested custom implementation of a SalesForce product
+              </li>
+              <li>
+                  Woring in Agile teams for iterative deliverables
+              </li>
+          </ul>
+        </div>
+        </div>
+
+        <div id="HomeAdvisor" class="tabcontent">
+            <div>
+                <h3>HomeAdvisor </h3>
+                <span>10.2015 - 04.2017</span>
+
+          <h6>QA Analyst</h6>
+          <ul>
+              <li>
+                  Testing the front/backend of the Instant Booking feature
+              </li>
+              <li>
+                  Improved quality for 1+ million yearly appointments worth ~$40M
+              </li>
+              <li>
+                  Verifying email and sms templates and send logic for 5M yearly messages
+              </li>
+              <li>
+                  Testing Microservices, Kafka, REST/API, UX, Business rules
+              </li>
+              <li>
+                  Wrote Selenium test cases and helped improve the framework as needed
+              </li>
+          </ul>
+          </div>
+        </div>
+
+        <div id="Tyler" class="tabcontent">
+            <div>
+                <h3>Tyler Technologies </h3>
+                <span>10.2011 - 10.2015</span>
+
+                <h6>QA Analyst</h6>
+                <ul>
+                    <li>
+                        Testing Clerk/Recorder/Payroll modules for Local Government
+                    </li>
+                    <li>
+                        Testing payment services and integration with 3rd party vendors
+                    </li>
+                    <li>
+                        Tetsing Federal and State regulations and requirements
+                    </li>
+                    <li>
+                        Handled personal and sensitive information
+                    </li>
+                    <li>
+                        Maintained comprehensive Test Environments
+                    </li>
+                    <li>
+                        Working with distributed teams
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="sdl" class="tabcontent">
+            <div>
+                <h3>SDL International </h3>
+                <span>09.2010 - 10.2011</span>
+          <h6>QA Engineer</h6>
+          <ul>
+              <li>
+                  Tested BlackBerry devices and enterprise software
+              </li>
+              <li>
+                  Tested native and 3rd party in various languages
+              </li>
+              <li>
+                  Created test cases based on the requirements
+              </li>
+          </ul>
+          <span>09.2010 - 10.2011</span>
+          <h6>Linguist</h6>
+          <ul>
+              <li>
+                  Performed English to Norwegian translation and proof reading on special projects
+              </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section">
+        <div class="header">
+          <h2><span>03.</span> skills</h2>
+        </div>
+      </div>
+      <div class="skills">
+        <a href="http://cypress.io" target="_blank">
+          <div class="slide">
+            <span>Cypress</span>
+            <p>
+              Fast, easy and reliable <br />testing for anything that <br />
+              runs in a browser.
+            </p>
+          </div>
+        </a>
+        <a href="https://www.selenium.dev/" target="_blank">
+          <div class="slide">
+            <span>Selenium</span>
+            <p>
+              Selenium automates browsers. That's it!. <br />
+              The rest is up to you
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"
+          target="_blank"
+        >
+          <div class="slide">
+            <span>JavaScript </span>
+            <p>
+              A lightweight, interpreted, <br />
+              programming language <br />
+              with first-class functions.
+            </p>
+          </div>
+        </a>
+        <a href="https://www.w3schools.com/java/java_intro.asp" target="_blank">
+          <div class="slide">
+            <span>Java</span>
+            <p>
+              Java is powering the innovation behind our <br />
+              digital world
+            </p>
+          </div>
+        </a>
+        <a href="https://restfulapi.net/" target="_blank">
+          <div class="slide">
+            <span>REST API</span>
+            <p>Architectural style for distributed hypermedia systems</p>
+          </div>
+        </a>
+        <a href="https://www.w3schools.com/sql/sql_intro.asp" target="_blank">
+          <div class="slide">
+            <span>SQL</span>
+            <p>
+              A standard language for accessing and <br />manipulating
+              databases.
+            </p>
+          </div>
+        </a>
+        <a href="https://www.docker.com/" target="_blank">
+          <div class="slide">
+            <span>Docker</span>
+            <p>
+              They help developers and development teams build <br />and ship
+              apps..
+            </p>
+          </div>
+        </a>
+        <a href="https://kafka.apache.org/" target="_blank">
+          <div class="slide">
+            <span>Kafka</span>
+            <p>
+              A distributed event <br />platform able to handle trillions of
+              events
+            </p>
+          </div>
+        </a>
+        <a href="https://agilemanifesto.org/" target="_blank">
+          <div class="slide">
+            <span>Agile</span>
+            <p>
+              Approaches development requirements and solutions through the
+              collaborative effort
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://agileriskmanagement.org/agile-risk-management/"
+          target="_blank"
+        >
+
+          <div class="slide">
+            <span>Risk Analysis</span>
+            <p>
+              The probability of <br />something going wrong, <br />and the
+              negative consequences if it does.
+            </p>
+          </div>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Requirements_analysis" target="_blank">
+        <div class="slide">
+          <span>Requirements</span>
+          <p>
+            The process of determining user expectations for a new or modified
+            product based on requirements
+          </p>
+        </div>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Acceptance_testing" target="_blank">
+        <div class="slide">
+          <span>User Acceptance</span>
+          <p>
+            Testing software as a user would, with their mindset<br />
+            and needs for production <br />
+            scale and use
+          </p>
+        </div>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Exploratory_testing" target="_blank">
+        <div class="slide">
+          <span>Exploratory Testing</span>
+          <p>
+            All about discovery, investigation, and learning. <br />It
+            emphasizes personal freedom and responsibility
+          </p>
+        </div>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Negative_testing" target="_blank">
+        <div class="slide">
+          <span>Negative Testing</span>
+          <p>
+            Invalid data is inserted to compare the output against the given
+            input without crashing
+          </p>
+        </div>
+    </a>
+    <a href="https://www.istqb.org/" target="_blank">
+        <div class="slide">
+          <span>ISTQB</span>
+          <p>Certificates: <br />CTFL <br />CTFL-AT <br />CTFL-TM</p>
+        </div>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Continual_improvement_process" target="_blank">
+        <div class="slide">
+          <span>+ + + </span>
+          <p>
+            I believe in continuous improvement. I always learn new skills, and
+            improve existing skills
+          </p>
+        </div>
+      </div>
+    </a>
+    </section>
+
+    <section id="contactme">
+      <div class="section">
+        <div class="header">
+          <h2><span>04.</span> contact me</h2>
+          <p>The best way to contact me is to connect with me on <a href="https://www.linkedin.com/in/arildandreassen/" target="_blank">LinkedIn </a>or via <a href="mailto:arildsa@hotmail.com">eMail</a></p>
+        </div>
+      </div>
+
+    </section>
+    <div class="footer"></div>
+
+    <script>
+      document.getElementById("defaultLoad").className += " active";
+    </script>
+  </body>
+</html>

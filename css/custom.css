@@ -1,0 +1,242 @@
+body {
+  background-color: #142850;
+}
+
+.header {
+  height: 40px;
+}
+
+.nav_options {
+  color: aquamarine;
+  text-decoration: none;
+  font-family: "Russo One", sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+  right: 0;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: azure;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  padding: 0 50px 0 0px;
+}
+
+li a:hover {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.intro {
+  margin: 300px auto 0;
+  text-align: center;
+}
+
+.block {
+  display: inline-block;
+}
+
+.block .name {
+  display: block;
+  margin: 0;
+  color: azure;
+  font-family: "Audiowide", cursive;
+  font-size: 4rem;
+  letter-spacing: 3px;
+  /* -webkit-text-stroke: 1px black; */
+}
+
+.block .greetings {
+  display: block;
+  text-align: left;
+  margin: 0;
+  color: aquamarine;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.block .subtitle {
+  display: block;
+  margin: 0;
+  text-align: right;
+  color: aquamarine;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.quick.intro {
+  display: inline-block;
+  color: #d6e4f0;
+  margin: 50px auto;
+  width: 35%;
+  text-align: left;
+}
+
+.quick.intro span {
+    color: aquamarine;
+}
+
+.textblock {
+  height: 500px;
+  margin: 0 auto;
+}
+
+.textblock p {
+    color: azure;
+}
+
+.textblock span {
+    color: aquamarine;
+}
+
+.experience {
+  width: 35%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.skills {
+  width: 35%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.contact {
+  width: 35%;
+  height: 500px;
+  background-color: rgb(255, 17, 0);
+  margin: 0 auto;
+}
+
+.footer {
+  margin: 0 auto 300px;
+}
+
+.section {
+  margin: 0 auto;
+  width: 35%;
+}
+
+.section .header {
+  margin: 200px auto 0;
+  color: azure;
+  height: 50px;
+  border-bottom: 1px solid aquamarine;
+  margin-bottom: 50px;
+}
+
+.section .header h2 {
+  color: azure;
+  background-color: #142850;
+  position: relative;
+  top: 27px;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.section .header span {
+  color: aquamarine;
+  font-size: 1.5rem;
+  font-family: "Russo One", sans-serif;
+}
+
+.tabcontent h6 {
+    display: inline-block;
+    color: aquamarine;
+}
+
+.tabcontent span {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: aquamarine;
+    float: right;
+}
+
+.tabcontent ul {
+    list-style: none;
+}
+
+.tabcontent ul li::before {
+    content: ">";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: aquamarine; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+.skills {
+    padding-top: 20px;
+    height: 700px;
+}
+
+.slide {
+    height: 150px;
+    width: 150px;
+    border: 1px solid azure;
+    background-color: #142850;
+    display: inline-block;
+    margin: 13px 13px 0 0;
+}
+
+.slide span {
+    color: aquamarine;
+}
+
+.slide span {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 15px;
+
+}
+
+.slide p {
+    position: relative;
+    left: 10px;
+    top: 35px;
+    font-size: 0.7rem;
+    color: azure;
+}
+
+.slide:hover{
+    border: 1px solid aquamarine;
+    position: relative;
+    bottom: 6px;
+    right: 6px;
+    box-shadow: 6px 6px 10px 1px black;
+    color: aquamarine;
+    background-color: #0d1a33;
+}
+
+#contactme p {
+    margin-top: 25px;
+}
+
+#contactme p span {
+    color: aquamarine;
+    font-size: 1rem;
+}
+
+#contactme a{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+#contactme a:hover {
+    color: azure;
+    text-decoration: none;
+}
+
