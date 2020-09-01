@@ -100,6 +100,11 @@ li a:hover {
     color: aquamarine;
 }
 
+#about img {
+  float:right;
+  opacity: 0.5;
+}
+
 .experience {
   width: 35%;
   height: 500px;
@@ -152,12 +157,13 @@ li a:hover {
 }
 
 .tabcontent h6 {
-    display: inline-block;
+    display: block;
     color: aquamarine;
+    padding-right: 50px;
 }
 
 .tabcontent span {
-    display: inline-block;
+    display: block;
     font-size: 0.8rem;
     color: aquamarine;
     float: right;
@@ -167,11 +173,16 @@ li a:hover {
     list-style: none;
 }
 
+.tabcontent li p {
+  float: right;
+  margin: 0;
+}
+
 .tabcontent ul li::before {
     content: ">";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: aquamarine; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
+    display: inline-block; /*Needed to add space between the bullet and the text*/
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
   }
