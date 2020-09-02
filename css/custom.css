@@ -2,10 +2,6 @@ body {
   background-color: #142850;
 }
 
-.header {
-  height: 40px;
-}
-
 .nav_options {
   color: aquamarine;
   text-decoration: none;
@@ -79,7 +75,6 @@ li a:hover {
   display: inline-block;
   color: #d6e4f0;
   margin: 50px auto;
-  width: 35%;
   text-align: left;
 }
 
@@ -88,8 +83,8 @@ li a:hover {
 }
 
 .textblock {
-  height: 500px;
-  margin: 0 auto;
+   margin: 0 auto;
+   padding-bottom: 100px;
 }
 
 .textblock p {
@@ -106,19 +101,18 @@ li a:hover {
 }
 
 .experience {
-  width: 35%;
+  width: 650px;
   height: 500px;
   margin: 0 auto;
 }
 
 .skills {
-  width: 35%;
-  height: 500px;
+  width: 650px;
   margin: 0 auto;
 }
 
 .contact {
-  width: 35%;
+  width: 650px;
   height: 500px;
   background-color: rgb(255, 17, 0);
   margin: 0 auto;
@@ -130,11 +124,11 @@ li a:hover {
 
 .section {
   margin: 0 auto;
-  width: 35%;
+  width: 650px;
 }
 
 .section .header {
-  margin: 200px auto 0;
+  margin: 100px auto 0;
   color: azure;
   height: 50px;
   border-bottom: 1px solid aquamarine;
@@ -187,18 +181,13 @@ li a:hover {
     margin-left: -1em; /* Also needed for space (tweak if needed) */
   }
 
-.skills {
-    padding-top: 20px;
-    height: 700px;
-}
-
 .slide {
     height: 150px;
     width: 150px;
     border: 1px solid azure;
     background-color: #142850;
     display: inline-block;
-    margin: 13px 13px 0 0;
+    margin: 10px 8px 0 0;
 }
 
 .slide span {
